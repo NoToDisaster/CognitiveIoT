@@ -4,11 +4,11 @@
 # [Creating a Cognitive IOT Application that Monitors Household Devices](https://developer.ibm.com/code/patterns/detect-voltage-anomalies-in-household-iot-devices/)
 
 
-This Cognitive pattern demonstrates how to build a Cognitive IoT application. In cognitive IoT solutions, machine learning takes place in an edge computing architecture. Note that Edge computing means that you push computing away from the cloud or data center out towards the sensors. Computations happens on the edge gateway (e.g. Simulated Raspberry Pi in this scenario) near the sensors and actors. Let's use a simple scenario for illustration. Assume that you have a Washing Machine with 3 sensors.
+This Cognitive pattern demonstrates how to build a Cognitive IoT application. In cognitive IoT solutions, machine learning takes place in an edge computing architecture. Note that Edge computing means that you push computing away from the cloud or data center out towards the sensors. Computations happens on the edge gateway (e.g. Simulated Raspberry Pi with iphones and android in this scenario) near the sensors. Let's use a simple scenario for illustration. Assume that you have a Machine with 3 sensors.
 
-* Fluid temperature
-* Hardness of H2O
-* Speed of the motor
+* Heat temperature
+* Level of H2O
+* Speed of wind
 
 One can use the sensors to monitor the washing machine for any abnormalities for these specific parts of the machine.  When any of these become unstable, information is triggered to perform an action and to record for later analytics processing.
 
